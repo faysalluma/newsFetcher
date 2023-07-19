@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.example.testmobile",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 23818933,
+      "versionName": "1.1.0",
+      "outputFile": "TestMobile-release-1.1.0.apk"
+    }
+  ],
+  "elementType": "File"
+}

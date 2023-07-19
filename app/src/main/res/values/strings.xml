@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name_title">Test mobile</string>
+    <string name="feature_failure">Feature Failure</string>
+    <string name="actualites_title">Actualités à la une</string>
+    <string name="read_more">Read more :</string>
+    <string name="no_description">Aucune description</string>
+    <string name="no_internet__connexion">Pas de Connexion internet</string>
+</resources>
