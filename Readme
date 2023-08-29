@@ -1,10 +1,2 @@
-Architecture : Clean architecture, MVVM (c'est elle qui est actuellement utilisé et recommandé pour les devs Android aujourd'hui)
+Technologies : Clean Architecture, MVVM, Retrofit, Hilt, Coroutines, Glide, DiffUtils, Check Internet Connection
 
-Technologies : Retrofit (pour l'api), Hilt (injection de dépendances : solide pour les gros projets), Glide (image),
-Coroutines (appel asynchrone), Dataflow
-
-J'aurais pu utiliser Jetpack compose côté UI. J'ai choisi le MDC vu que c'est une application test démo.
-
-J'ai passé juste 6h (Soit 2h par jour les soirs à la maison, en raison d'un manque de temps) de travail au dessus donc j'ai fais le strict minimum demandé. J'espère que vous apprécierez.
-
-Merci
