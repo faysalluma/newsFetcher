@@ -10,10 +10,10 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.testmobile.R
-import com.example.testmobile.data.database.adapters.ArticleAdapter
-import com.example.testmobile.data.database.adapters.ArticleAdapterListener
+import com.example.testmobile.presentation.adapters.ArticleAdapterListener
 import com.example.testmobile.data.dto.ArticleDTO
 import com.example.testmobile.databinding.FragmentHomeBinding
+import com.example.testmobile.presentation.adapters.ArticleAdapter
 import com.example.testmobile.utils.Failure
 import com.example.testmobile.utils.Utility
 import dagger.hilt.android.AndroidEntryPoint
@@ -83,7 +83,7 @@ class HomeFragment : Fragment() {
         viewModel.articles.observe(viewLifecycleOwner){
             if (it != null) {
                 binding.progressEmpty.visibility = View.GONE
-                adapter.setArticles(it)
+                adapter.differ.submitList(it)
             }
         }
 
